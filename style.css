@@ -114,6 +114,14 @@ section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
+
+    background-position-x: 90%;
+
+
+
+
+
+
 }
 
 
@@ -283,8 +291,10 @@ section {
 .heart-icon {
 
     position: absolute;
-    right: 0;
+    right: 10px;
     font-size: 20px;
+
+
 }
 
 .heart-icon:hover {
@@ -436,13 +446,6 @@ section {
 
 
 
-
-
-
-
-
-
-
 .o {
     display: flex;
 
@@ -581,7 +584,7 @@ section {
 }
 
 
-@media(max-width:956px) {
+/* @media(max-width:956px) {
 
     .navmenu {
 
@@ -597,4 +600,4 @@ section {
         padding: 120px 30px;
         transition: all .42s;
     }
-}
+} */
